@@ -1,0 +1,16 @@
+/* Basic reset and simple layout for portfolio scaffold */
+:root{
+  --bg:#f7f7fb;
+  --accent:#2b6cb0;
+  --text:#222;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%}
+body{font-family:Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);}
+header{background:#fff;border-bottom:1px solid #e6e6ee}
+nav{max-width:980px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:12px}
+.nav-links{list-style:none;display:flex;gap:12px}
+.nav-links a{color:var(--text);text-decoration:none;padding:6px 8px;border-radius:4px}
+.nav-links a:hover{background:#f0f4ff;color:var(--accent)}
+.hero, .about, .contact{max-width:980px;margin:40px auto;padding:24px;background:#fff;border-radius:8px;box-shadow:0 1px 4px rgba(16,24,40,0.04)}
+.logo{font-weight:700;color:var(--accent);text-decoration:none}
