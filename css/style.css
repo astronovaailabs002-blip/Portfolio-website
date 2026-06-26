@@ -14,3 +14,42 @@ nav{max-width:980px;margin:0 auto;display:flex;align-items:center;justify-conten
 .nav-links a:hover{background:#f0f4ff;color:var(--accent)}
 .hero, .about, .contact{max-width:980px;margin:40px auto;padding:24px;background:#fff;border-radius:8px;box-shadow:0 1px 4px rgba(16,24,40,0.04)}
 .logo{font-weight:700;color:var(--accent);text-decoration:none}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+}
+
+.hero-box {
+  max-width: 700px;
+  padding: 20px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.typing {
+  font-size: 18px;
+  color: #38bdf8;
+}
+
+.btn-group {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
