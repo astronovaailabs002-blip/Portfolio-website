@@ -3,41 +3,98 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Portfolio - Home</title>
+    <meta
+      name="description"
+      content="Nilofar Naaz is an AI enthusiast, frontend developer, prompt engineer, and creative freelance website developer."
+    />
+    <title>Nilofar Naaz | AI & Frontend Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html" class="logo">My Portfolio</a>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html" class="logo" aria-label="Nilofar Naaz home">
+          <span class="logo-mark">N</span>
+          <span>Nilofar Naaz</span>
+        </a>
         <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" aria-current="page">Home</a></li>
           <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="hero">
-        <h1><section class="hero">
-  <div class="hero-box">
-    <h1>Hi, I'm Nilofar Naaz 👋</h1>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">✨ AI • Creativity • Innovation</p>
+          <h1>
+            <span class="hero-kicker">Hello, I'm</span>
+            <span class="hero-name">Nilofar Naaz</span>
+          </h1>
+          <p class="role-line">
+            AI Enthusiast · Frontend Developer · Creative Freelancer · Prompt Engineer
+          </p>
+          <p class="hero-subtitle">
+            I combine creativity, frontend development, and AI-powered workflows
+            to craft responsive, user-friendly websites that help individuals
+            and businesses present themselves professionally online.
+          </p>
 
-    <h2 class="typing">AI Enthusiast | Web Developer | Creative Learner</h2>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a href="projects.html" class="btn">🚀 Explore My Projects</a>
+            <a href="contact.html" class="btn btn-outline">💬 Let's Work Together</a>
+            <span class="btn btn-ghost is-disabled" aria-disabled="true">📄 Download Resume</span>
+          </div>
+        </div>
 
-    <p>
-      I love building websites, exploring AI tools, and designing creative digital experiences.
-      My goal is to turn ideas into real projects.
-    </p>
+        <div class="hero-visual command-center" aria-label="AI Command Center visual">
+          <div class="command-orb"></div>
+          <div class="command-panel">
+            <span class="panel-status">Online</span>
+            <strong>AI Command Center</strong>
+            <p>Design systems, code, prompts, deployment, and responsive polish in one creative workflow.</p>
+          </div>
+          <span class="tool-chip chip-html">HTML</span>
+          <span class="tool-chip chip-css">CSS</span>
+          <span class="tool-chip chip-js">JavaScript</span>
+          <span class="tool-chip chip-github">GitHub</span>
+          <span class="tool-chip chip-vscode">VS Code</span>
+          <span class="tool-chip chip-chatgpt">ChatGPT</span>
+          <span class="tool-chip chip-claude">Claude</span>
+          <span class="tool-chip chip-codex">Codex</span>
+          <span class="tool-chip chip-responsive">Responsive</span>
+          <span class="tool-chip chip-deploy">Deploy</span>
+        </div>
+      </section>
 
-    <div class="btn-group">
-      <a href="about.html" class="btn">About Me</a>
-      <a href="contact.html" class="btn btn-outline">Contact</a>
-    </div>
-  </div>
+      <section class="preview-band" aria-label="Portfolio sections preview">
+        <a class="preview-pill" href="skills.html">Skills</a>
+        <a class="preview-pill" href="services.html">Services</a>
+        <a class="preview-pill" href="projects.html">Projects</a>
       </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a href="index.html" class="logo" aria-label="Nilofar Naaz home">
+          <span class="logo-mark">N</span>
+          <span>Nilofar Naaz</span>
+        </a>
+        <p>AI enthusiast, frontend developer, and creative freelance website developer.</p>
+        <a href="#home" class="footer-link">Back to Top</a>
+      </div>
+    </footer>
 
     <script src="js/main.js"></script>
   </body>
